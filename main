@@ -14,5 +14,7 @@
 # make output directory
 mkdir -p rois
 
-# run the actual python code
-singularity exec docker://brainlife/dipy:1.1.1 python3 main.py
+masks=`jq -r '.masks' config.json`
+
+#for f in masks:
+#  cp f in rois
