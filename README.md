@@ -1,23 +1,8 @@
 [![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.444-blue.svg)](https://doi.org/10.25663/bl.app.444)
 
-# app-template-python
-This is a template showing how to develop a python-based brainlife.io/app
-
-# app-example-documentation
-This is an example of how to write documentation (readme.md and license.md for Apps on brainlife.io)
-
-Write the following here...
-
-1) What the App does, and how it does it at the basic level.
-2) Briefly explain what 1) means for novice users in a language that 1st year psychology student can understand it.
-3) Briefly description of input / output files.
-
-### Authors
-- [Franco Pestilli](pestilli@utexas.edu)
-
-### Contributors
-- [Franco Pestilli](pestilli@utexas.edu)
+# app-documentation
+This app coverts from trasctmasks datatype to rois datatype
 
 #### Copyright (c) 2022 brainlife.io The University of Texas at Austin
 
