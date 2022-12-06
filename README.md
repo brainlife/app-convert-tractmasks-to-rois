@@ -4,6 +4,11 @@
 # app-documentation
 This app coverts from tractmasks datatype to rois datatype
 
+# Authors
+- Antonio Fernandez
+- Giulia Berto
+
+
 #### Copyright (c) 2022 brainlife.io The University of Texas at Austin
 
 ### Funding Acknowledgement
