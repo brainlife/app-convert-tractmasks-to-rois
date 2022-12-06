@@ -16,6 +16,3 @@ mkdir -p rois
 
 #for f in masks:
 #  cp f in rois
-
-# run the actual python code
-singularity exec docker://brainlife/dipy:1.1.1 python3 main.py
