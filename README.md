@@ -2,7 +2,7 @@
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.444-blue.svg)](https://doi.org/10.25663/bl.app.444)
 
 # app-documentation
-This app coverts from tractmasks datatype to rois datatype
+This app converts from tractmasks datatype to rois datatype.
 
 ### Authors
 - Giulia Berto
