@@ -2,6 +2,30 @@
 [![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.444-blue.svg)](https://doi.org/10.25663/bl.app.444)
 
 # app-documentation
+
+<!-- brainlife-app:begin (generated from the App manifest; edit the manifest, not this block) -->
+
+**Converts a tractmasks datatype into a rois datatype by moving the mask files unchanged; a format-conversion utility.**
+
+Moves every file at the top level of the tract masks directory into a rois directory, without changing the images. Use it to feed tract masks to Apps that expect ROIs.
+
+Run it on brainlife.io: [https://doi.org/10.25663/brainlife.app.707](https://doi.org/10.25663/brainlife.app.707)
+
+| Input | Datatype | Required | Description |
+|---|---|---|---|
+| `masks` | `neuro/tractmasks` | yes | Tract masks (one NIfTI per tract). |
+
+| Output | Datatype | Description |
+|---|---|---|
+| `output` | `neuro/rois` | The same masks as a rois datatype. |
+
+Runtime: 0.25 h walltime.
+
+Please cite:
+- Avesani P, McPherson B, Hayashi S, et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [doi:10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
+
+<!-- brainlife-app:end -->
+
 This app converts from tractmasks datatype to rois datatype.
 
 ### Authors
