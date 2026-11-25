@@ -10,7 +10,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="MIT license"></a>
 </p>
 
-## 🧠 At a glance
+## At a glance
 
 <!-- brainlife-app:begin (generated from the App manifest; edit the manifest, not this block) -->
 
@@ -20,18 +20,18 @@ Moves every file at the top level of the tract masks directory into a rois direc
 
 | | |
 |---|---|
-| 📥 **Inputs** | `neuro/tractmasks` |
-| 📤 **Outputs** | `neuro/rois` |
-| ⚙️ **Resources** | 0.25 h walltime |
-| 🔗 **Run it** | [doi.org/10.25663/brainlife.app.707](https://doi.org/10.25663/brainlife.app.707) |
+| **Inputs** | `neuro/tractmasks` |
+| **Outputs** | `neuro/rois` |
+| **Resources** | 0.25 h walltime |
+| **Run it** | [doi.org/10.25663/brainlife.app.707](https://doi.org/10.25663/brainlife.app.707) |
 
-#### 📥 Inputs
+#### Inputs
 
 | Input | Datatype | Required | Description |
 |---|---|---|---|
 | `masks` | `neuro/tractmasks` | yes | Tract masks (one NIfTI per tract). |
 
-#### 📤 Outputs
+#### Outputs
 
 | Output | Datatype | Description |
 |---|---|---|
@@ -39,13 +39,13 @@ Moves every file at the top level of the tract masks directory into a rois direc
 
 <!-- brainlife-app:end -->
 
-## 🚀 Running the App
+## Running the App
 
-### ☁️ On brainlife.io
+### On brainlife.io
 
 Open the App at [doi.org/10.25663/brainlife.app.707](https://doi.org/10.25663/brainlife.app.707), choose a `neuro/tractmasks` dataset (one NIfTI per tract) and press **Execute**. The App moves every file at the top level of the masks directory into a `rois` directory without changing the images, and archives the result to your project as a `neuro/rois` dataset. Use it to feed tract masks to Apps that expect ROIs.
 
-### 💻 Locally
+### Locally
 
 You need [`jq`](https://jqlang.github.io/jq/) and GNU `find`/`xargs`/`mv`; no container is used.
 
@@ -66,14 +66,14 @@ You need [`jq`](https://jqlang.github.io/jq/) and GNU `find`/`xargs`/`mv`; no co
 
    The mask files are **moved**, not copied, so work on a copy of your data.
 
-## 📦 Outputs
+## Outputs
 
 ```text
 output/
 └── rois/   the tract mask files, unchanged, as a rois dataset
 ```
 
-## 📚 Citing
+## Citing
 
 > [!TIP]
 > If you use this App in your work, please cite the App, the software it builds on and brainlife.io (below). GitHub's **Cite this repository** button gives the App citation in APA and BibTeX.
@@ -82,12 +82,12 @@ output/
 - Avesani P, McPherson B, Hayashi S, et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019). [doi:10.1038/s41597-019-0073-y](https://doi.org/10.1038/s41597-019-0073-y)
 - Hayashi S, Caron BA, Heinsfeld AS, et al. brainlife.io: a decentralized and open-source cloud platform to support neuroscience research. *Nature Methods* 21:809–813 (2024). [doi:10.1038/s41592-024-02237-2](https://doi.org/10.1038/s41592-024-02237-2)
 
-## 👥 Authors
+## Authors
 
 - Giulia Bertò
 - Antonio Fernandez
 
-## 💰 Funding
+## Funding
 
 [![Wellcome-226486/Z/22/Z](https://img.shields.io/badge/Wellcome-226486%2FZ%2F22%2FZ-purple.svg)](https://wellcome.org/)
 [![NIH-NINDS-U24NS140384](https://img.shields.io/badge/NIH_NINDS-U24NS140384-green.svg)](https://reporter.nih.gov/project-details/11261037)
@@ -106,6 +106,6 @@ output/
 
 <sub>brainlife.io is publicly funded, and acknowledging that support helps keep it running. This App was developed with support from Wellcome, the U.S. National Institutes of Health (including the BRAIN Initiative BRAIN CONNECTS program: The Axonal Projectome EXchange, U24NS140384, and the Center for Mesoscale Connectomics, UM1NS132207) and the U.S. National Science Foundation.</sub>
 
-## ⚖️ License
+## License
 
 [MIT](LICENSE).
